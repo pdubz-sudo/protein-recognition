@@ -4,3 +4,5 @@ train/
 sample_submission.csv
 train.csv
 scripts/.ipynb_checkpoints/
+
+scripts/train.h5
