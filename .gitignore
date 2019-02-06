@@ -4,5 +4,7 @@ train/
 sample_submission.csv
 train.csv
 scripts/.ipynb_checkpoints/
-
+data/
 scripts/train.h5
+practice-test/
+practice-train/
