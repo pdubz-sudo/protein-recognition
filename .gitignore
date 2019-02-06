@@ -2,14 +2,9 @@
 __pycache__/
 test/
 train/
-sample_submission.csv
-train.csv
+data/data.h5
 scripts/.ipynb_checkpoints/
-data/
-scripts/train.h5
 practice-test/
 practice-train/
 practice-images-small/
 scripts/__pychache__/
-scripts/preprocess.ipynb
-scripts/practice-images/
