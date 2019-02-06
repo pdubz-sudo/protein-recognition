@@ -8,3 +8,5 @@ data/
 scripts/train.h5
 practice-test/
 practice-train/
+practice-images-small/
+scripts/__pychache__/
