@@ -2,9 +2,11 @@ import os
 import numpy as np
 from PIL import Image
 
+# Resizes images and places them in a different directory.
+
 resize_shape = 224,224
-original_images_path = r"D:\kaggle-kaggle-protien-data\scripts\practice-images"
-save_path_dir = r"D:\kaggle-kaggle-protien-data\scripts\practice-images-small"
+original_images_path = ""
+save_path_dir = ""
 
 
 for subdir, dirs, files in os.walk(original_images_path):

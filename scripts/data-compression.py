@@ -21,10 +21,10 @@ import h5py
 
 print('\nThis will take a while...')
 
-traindata_path = r"D:\kaggle-kaggle-protien-data\train"
-testdata_path = r"D:\kaggle-kaggle-protien-data\test"
+traindata_path = r""
+testdata_path = r""
 
-compressed_data_dir = r"D:\kaggle-kaggle-protien-data\data"
+compressed_data_dir = r""
 
 resize_shape = 224,224
 
