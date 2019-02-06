@@ -1,6 +1,7 @@
 # Image Recognition
 
-### Currently working on this for fun
+# Currently working on this for fun...
+
 Image recognition of cell organelles with deep learning using TensorFlow.
 
 
