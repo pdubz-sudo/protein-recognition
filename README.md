@@ -20,7 +20,7 @@ unfamiliar with HDF5 files, you can read about them here https://www.h5py.org/. 
 	and can be accessed by the following code
 
 	> with h5py.File(compressed_data_dir + os.sep + 'data.h5', 'r') as hf:
-    	> train = hf['train'][:]
-    	> train_ids = hf['train_ids'][:]
-    	> test = hf['test'][:]
-    	> test_ids = hf['test_ids'][:]
+    >	train = hf['train'][:]
+    >	train_ids = hf['train_ids'][:]
+    >	test = hf['test'][:]
+    >	est_ids = hf['test_ids'][:]
