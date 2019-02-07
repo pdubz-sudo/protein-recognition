@@ -19,8 +19,8 @@ unfamiliar with HDF5 files, you can read about them here https://www.h5py.org/. 
 	directory, and image size. The original files MUST be 512 x 512. The pre-proceed HDF5 file will be 8GB
 	and can be accessed by the following code
 
-	> with h5py.File(compressed_data_dir + os.sep + 'data.h5', 'r') as hf:
-    >	 train = hf['train'][:]
-    >	 train_ids = hf['train_ids'][:]
-    >	 test = hf['test'][:]
-    >	 test_ids = hf['test_ids'][:]
+> with h5py.File(compressed_data_dir + os.sep + 'data.h5', 'r') as hf:
+>     train = hf['train'][:]
+>	  train_ids = hf['train_ids'][:]
+>	  test = hf['test'][:]
+>	  test_ids = hf['test_ids'][:]
