@@ -10,7 +10,9 @@ https://www.kaggle.com/c/human-protein-atlas-image-classification
 
 Completed so far:
 [x] Some EDA which can be found in the jupyter notebook.
+
 [x] Script that reduces images size.
+
 [x] Pre-processing: Script that reduces images size, converts images to arrays (m, channel,h, w), and saves in a HDF5 file. If you're
 unfamiliar with HDF5 files, you can read about them here https://www.h5py.org/. 
 	To run the pre-process script, do the following:
