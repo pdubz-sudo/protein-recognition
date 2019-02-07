@@ -8,7 +8,8 @@ Image recognition of cell organelles with deep learning using TensorFlow.
 Data can be downloaded here
 https://www.kaggle.com/c/human-protein-atlas-image-classification
 
-Completed so far:
+Completed so far
+
 [x] Some EDA which can be found in the jupyter notebook.
 
 [x] Script that reduces images size.
