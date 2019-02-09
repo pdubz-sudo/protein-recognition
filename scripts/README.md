@@ -3,11 +3,11 @@
 Data can be downloaded here
 https://www.kaggle.com/c/human-protein-atlas-image-classification
 
-#### Resize_images.py
+### Resize_images.py
 Resizes the images to a new directory. The images must be 512 x 512 so the script works for the smaller download set, which is still pretty large.
 If you want to use this script with 250GB dataset then you must remove the assert statement in the script.
 
-#### data-compression.py 
+### data-compression.py 
 Script that reduces images size, converts images to arrays (m, channel,h, w), and saves in a 
 HDF5 file. If you're unfamiliar with HDF5 files, you can read about them here https://www.h5py.org/. To run the pre-process 
 script, do the following:
@@ -23,7 +23,7 @@ and can be accessed by the following code:
             test = hf['test'][:]
             test_ids = hf['test_ids'][:]
 
-#### preprocess-binary-norm-split.py
+### preprocess-binary-norm-split.py
 Script that creates and saves binary normalized train, val, and test data for training CNN models.
 The created file is 24GB.
 
