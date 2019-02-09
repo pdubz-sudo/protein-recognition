@@ -5,9 +5,10 @@ from PIL import Image
 import numpy as np
 import h5py
 
-# This script compresses all the original images into resized arrays for
-# train images and test images in an hdf5 file. Since the images will be converted to arrays, 
-# their respective ids have also been stored as arrays for identification.
+# This script compresses all the original images into resized arrays, data type uint8, for
+# train images and test images in an hdf5 file. The datatype is saved as uint8 because it's only 1 byte per 
+# pixel so it is much smaller than np.floats. Since the images will be converted to arrays, 
+# their respective ids have also been stored as arrays for identification, numpy bytes.
 # The directory of the train and test images must be indicated. The directory
 # for where the hdf5 file will be saved must also be indicated.
 # In addition, the resize shape size can be changed.
