@@ -25,4 +25,5 @@ and can be accessed by the following code:
             test = hf['test'][:]
             test_ids = hf['test_ids'][:]
 
-- [x] Further Pre-processing: Script that creates binary normalized train, val, and test data for training CNN models.
+- [x] Further Pre-processing: Script that creates and saves binary normalized train, val, and test data for training CNN models.
+The created file is 24GB.
